@@ -8,3 +8,7 @@
 - displaying a summary of the current virtual disk occupancy map -
   i.e. a list of subsequent areas of the virtual disk with the description: address, type
   area, size, status (e.g. for data blocks: free/busy).
+
+#### There are to different files implementing filesystem:
+- filesystem.c : runs on new Unix systems
+- minix_fs.c : runs on minix operating system version 2 or newer
